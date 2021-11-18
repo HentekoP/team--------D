@@ -55,7 +55,6 @@ public class MoveGround3 : MonoBehaviour
             }
             yield return null;
         }
-
         if (xz==0) { use_flg_xz[0] = false; }//フラグのオンオフ
         else { use_flg_xz[1] = false; }
 

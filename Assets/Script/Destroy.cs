@@ -25,7 +25,7 @@ public class Destroy : MonoBehaviour
         if (hit.CompareTag("Ball"))
         {
             // Instantiate(particleObject, this.transform.position, Quaternion.identity);
-            Destroy(gameObject);
+            //Destroy(gameObject);
             AudioSource.PlayClipAtPoint(clip, transform.position);
             AudioSource.PlayClipAtPoint(clip, transform.position);
             AudioSource.PlayClipAtPoint(clip, transform.position);

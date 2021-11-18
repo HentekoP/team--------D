@@ -12,14 +12,8 @@ public class Destroy : MonoBehaviour
     void Start()
     {
         score = 0;
-        SetCountText();
     }
 
-    void SetCountText()
-    {
-        // スコアの表示を更新
-        scoreText.text = "Count: " + score.ToString();
-    }
     void OnTriggerEnter(Collider hit)
     {
         if (hit.CompareTag("Ball"))
@@ -56,7 +50,6 @@ public class Destroy : MonoBehaviour
             AudioSource.PlayClipAtPoint(clip, transform.position);
             AudioSource.PlayClipAtPoint(clip, transform.position);
             score = score + 1;
-          SetCountText();
 
 
         }

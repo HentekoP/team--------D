@@ -10,13 +10,13 @@ public class Timer : MonoBehaviour
     [SerializeField]
     private Text _textTimer;
 
-    private AudioSource audioSource;
-
+    //[SerializeField] 
+    private AudioClip audiosource;
 
     void Start()
     {
         _textCountdown.text = "";
-        
+        //gameObject.GetComponent<AudioSource>().PlayOneShot(audiosource);
         StartCoroutine(CountdownCoroutine());
     }
 
@@ -51,8 +51,7 @@ public class Timer : MonoBehaviour
         Time.timeScale = 1f;
         _textCountdown.gameObject.SetActive(false);
         _textTimer.gameObject.SetActive(true);
-        audioSource = gameObject.GetComponent<AudioSource>();
-
+        //audiosource = gameObject.GetComponent<AudioSource>();
     }
 
   public   void OnEnable()

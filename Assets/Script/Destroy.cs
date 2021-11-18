@@ -6,14 +6,13 @@ using UnityEngine.UI;
 public class Destroy : MonoBehaviour
 {
     
-
+    public Text scoreText;
     public AudioClip clip;
     private int score;
     void Start()
     {
-
+        score = 0;
     }
-
 
     void OnTriggerEnter(Collider hit)
     {
@@ -29,6 +28,28 @@ public class Destroy : MonoBehaviour
             AudioSource.PlayClipAtPoint(clip, transform.position);
             AudioSource.PlayClipAtPoint(clip, transform.position);
             AudioSource.PlayClipAtPoint(clip, transform.position); 
+            AudioSource.PlayClipAtPoint(clip, transform.position);
+            AudioSource.PlayClipAtPoint(clip, transform.position);
+            AudioSource.PlayClipAtPoint(clip, transform.position);
+            AudioSource.PlayClipAtPoint(clip, transform.position);
+            AudioSource.PlayClipAtPoint(clip, transform.position);
+            AudioSource.PlayClipAtPoint(clip, transform.position);
+            AudioSource.PlayClipAtPoint(clip, transform.position); 
+            AudioSource.PlayClipAtPoint(clip, transform.position);
+            AudioSource.PlayClipAtPoint(clip, transform.position);
+            AudioSource.PlayClipAtPoint(clip, transform.position);
+            AudioSource.PlayClipAtPoint(clip, transform.position);
+            AudioSource.PlayClipAtPoint(clip, transform.position);
+            AudioSource.PlayClipAtPoint(clip, transform.position);
+            AudioSource.PlayClipAtPoint(clip, transform.position); 
+            AudioSource.PlayClipAtPoint(clip, transform.position);
+            AudioSource.PlayClipAtPoint(clip, transform.position);
+            AudioSource.PlayClipAtPoint(clip, transform.position);
+            AudioSource.PlayClipAtPoint(clip, transform.position);
+            AudioSource.PlayClipAtPoint(clip, transform.position);
+            AudioSource.PlayClipAtPoint(clip, transform.position);
+            AudioSource.PlayClipAtPoint(clip, transform.position);
+            score = score + 1;
 
 
         }

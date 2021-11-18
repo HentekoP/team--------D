@@ -29,28 +29,6 @@ public class Destroy : MonoBehaviour
             AudioSource.PlayClipAtPoint(clip, transform.position);
             AudioSource.PlayClipAtPoint(clip, transform.position);
             AudioSource.PlayClipAtPoint(clip, transform.position); 
-            AudioSource.PlayClipAtPoint(clip, transform.position);
-            AudioSource.PlayClipAtPoint(clip, transform.position);
-            AudioSource.PlayClipAtPoint(clip, transform.position);
-            AudioSource.PlayClipAtPoint(clip, transform.position);
-            AudioSource.PlayClipAtPoint(clip, transform.position);
-            AudioSource.PlayClipAtPoint(clip, transform.position);
-            AudioSource.PlayClipAtPoint(clip, transform.position); 
-            AudioSource.PlayClipAtPoint(clip, transform.position);
-            AudioSource.PlayClipAtPoint(clip, transform.position);
-            AudioSource.PlayClipAtPoint(clip, transform.position);
-            AudioSource.PlayClipAtPoint(clip, transform.position);
-            AudioSource.PlayClipAtPoint(clip, transform.position);
-            AudioSource.PlayClipAtPoint(clip, transform.position);
-            AudioSource.PlayClipAtPoint(clip, transform.position); 
-            AudioSource.PlayClipAtPoint(clip, transform.position);
-            AudioSource.PlayClipAtPoint(clip, transform.position);
-            AudioSource.PlayClipAtPoint(clip, transform.position);
-            AudioSource.PlayClipAtPoint(clip, transform.position);
-            AudioSource.PlayClipAtPoint(clip, transform.position);
-            AudioSource.PlayClipAtPoint(clip, transform.position);
-            AudioSource.PlayClipAtPoint(clip, transform.position);
-
 
 
         }

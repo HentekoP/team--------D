@@ -10,6 +10,7 @@ public class Timer : MonoBehaviour
     [SerializeField]
     private Text _textTimer;
 
+    private AudioSource audioSource;
 
 
     void Start()
@@ -50,6 +51,7 @@ public class Timer : MonoBehaviour
         Time.timeScale = 1f;
         _textCountdown.gameObject.SetActive(false);
         _textTimer.gameObject.SetActive(true);
+        audioSource = gameObject.GetComponent<AudioSource>();
 
     }
 
